@@ -9,6 +9,7 @@ var path = require('path');
 var mime = require('mime');
 var bodyParser = require('body-parser');
 var socketio = require('socket.io');
+//var pgClient = require('./db');
 
 // templating boilerplate setup
 app.engine('html', nunjucks.render); // how to render html templates
